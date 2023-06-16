@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    position: relative;
+}
+
+
+header{
+    width: 100%;
+    height: 7vh;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+
+
+ul{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items:end
+}
+
+
+main{
+    width: 100%;
+    height: 90vh;
+
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+
+}
+
+h2{
+
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    align-items: center;
+}
+
+img{
+    width: 70px;
+    height: 50px;
+}
+
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+#TextBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+
+}
+
+.Recherche{
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+
+}
+
+#tache-error{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+button{
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#taches{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px 0;
+    width: 100%;
+
+}
+
+#add-taches{
+    background-color: green;
+    color: white;
+    transition: all 0.2s ease-in-out; 
+}
+#add-taches:hover{
+    background-color: rgb(35, 171, 35);
+color: white;
+}
+
+#remove-taches{
+    display: flex;
+    justify-content:center;
+background-color: transparent;
+border: 1px solid red;
+transition: all 0.2s ease-in-out;
+width: 100%;
+
+}
+
+#remove-taches:hover{
+
+    background-color: red;
+    color: white;
+}
+
+input{
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.remove-tache{
+    width: 20px;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out ;
+}
+
+
+.remove-tache:hover{
+    width: 25px;
+}
+
+.tache-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid orange;
+    margin: 20px 0;
+
+
+}
+.tache-container:hover{
+    border-bottom: 3px solid red;
+
+}
+
+
+
